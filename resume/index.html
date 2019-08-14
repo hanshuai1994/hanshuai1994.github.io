@@ -1,127 +1,161 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>我的个人简历</title>
-        <link rel="icon" href="../img/favicon.png">
-        <link rel="stylesheet" href="css/resume.css">
-        <base target="_blank">
-    </head>
-    <body>
-        <div class="container">
-            <div class="info">
-                <p id="myweb">GitHub：<a href="https://github.com/hanshuai1994">hanshuai1994</a>&nbsp;&nbsp;&nbsp;个人主页：<a href="http://hanshuai.me">hanshuai.me</a></p>
-                <h3>个人信息</h3>
-                <article class="info_article">
-                    <div class="line-1">
-                        <p>姓名：韩帅</p>
-                        <p>手机：15605217252</p>
-                    </div>
-                    <div class="line-2">
-                        <p>毕业院校：徐州工程学院</p>
-                        <p>邮箱：hanshuai1994@foxmail.com</p>
-                    </div>
-                </article>
-            </div>
-            <div class="skill">
-                <h3>前端技能</h3>
-                <article class="skill_article">
-                    <h4>HTML / CSS</h4>
-                    <ul>
-                        <li>熟练掌握 HTML / CSS，可实现 PC 端与移动端各种复杂的页面布局</li>
-                        <li>熟练使用 HTML5 / CSS3 的新特性，如语义化标签、Flex布局等</li>
-                    </ul>
-                    <h4>ECMAScript(JavaScript)</h4>
-                    <ul>
-                        <li>熟练掌握原生 JavaScript，可实现多样化的页面功能</li>
-                        <li>熟练使用 ES6 新特性，如箭头函数、Class、模板表达式等</li>
-                        <li>具有良好的编码习惯，遵守编码规则，代码具备良好的可读性与可维护性</li>
-                        <li>熟练掌握运用面向对象的思想对代码进行封装和优化</li>
-                    </ul>
-                    <h4>DOM / BOM</h4>
-                    <ul>
-                        <li>熟练掌握原生 JavaScript 的 DOM 操作，实现事件绑定、委托和其他功能</li>
-                        <li>熟练掌握原生 JavaScript 的 BOM 操作，实现与浏览器窗口的互动</li>
-                    </ul>
-                    <h4>jQuery / Lodash / ECharts / Remarkable / Particles</h4>
-                    <ul>
-                        <li>熟练掌握 jQuery 的使用，可利用 jQuery 实现大部分原生 JavaScript 的功能</li>
-                        <li>熟悉 Lodash 库，可利用其对常见数据类型进行常规处理</li>
-                        <li>熟悉 ECharts / Remarkable / Particles 等第三方库，可在项目中快速实现</li>
-                    </ul>
-                    <h4>HTTP / AJAX / Node.js</h4>
-                    <ul>
-                        <li>熟悉 HTTP 协议，理解数据传输过程，熟悉协议中请求与响应</li>
-                        <li>熟练掌握通过使用原生 JavaScript 对 XMLHttpRequest 对象进行处理，实现 AJAX 的封装，通过调用封装好的 AJAX 实现便捷的前后端交互</li>
-                        <li>熟练掌握使用 Node.js 配合 Express 框架进行服务器端架设</li>
-                        <li>熟练掌握使用 Node.js 配合 Cheerio 和 Sync-request 框架，爬取网页数据</li>
-                    </ul>
-                    <h4>Bootstrap / Git / Webpack / Vue.js </h4>
-                    <ul>
-                        <li>熟练掌握使用 Bootstrap 框架进行响应式布局</li>
-                        <li>熟练掌握使用 Git 进行分布式版本控制</li>
-                        <li>熟练掌握使用 Webpack 进行模块化程序开发</li>
-                        <li>熟悉 Vue.js，掌握 Vue.js 的组件化开发和相关工具的使用</li>
-                    </ul>
-                </article>
-            </div>
-            <div class="program">
-                <h3>项目作品</h3>
-                <article class="program_article">
-                    <h4>音乐播放器</h4>
-                    <div class="music_player">
-                        <div class="introduction">
-                            <div class="introduction-text">
-                                <p>一个可移植的音乐播放器组件</p>
-                                <p>使用 AJAX 技术，利用网易云音乐的 API 获取音乐文件</p>
-                                <p>使用 jQuery 库与 JavaScript 实现播放器的音乐列表、播放/暂停、随机/再次/停止播放、上/下一曲、调节音量、拖动进度条等功能</p>
-                            </div>
-                        </div>
-                        <img src="img/music_player.jpg" alt="">
-                    </div>
-                    <h4>个人博客</h4>
-                    <div class="personal_blog">
-                        <div class="introduction">
-                            <div class="introduction-text">
-                                <p>一个博客的 Demo</p>
-                                <p>使用原生 JavaScript 对数据封装</p>
-                                <p>使用 AJAX 进行前后端数据交互</p>
-                                <p>使用 Node.js 进行服务器端的文件读写</p>
-                                <p>实现了向服务器的数据库添加博客与评论，并即时反馈在页面的功能</p>
-                            </div>
-                        </div>
-                        <div class="blog_img">
-                            <img src="img/blog_index.jpg" alt="">
-                            <img src="img/blog_detail.jpg" alt="">
-                        </div>
-                    </div>
-                    <h4 class="page_3">气温预报</h4>
-                    <div class="weather_forecast">
-                        <div class="introduction">
-                            <div class="introduction-text">
-                                <p>一个即时变动的气温预报图表</p>
-                                <p>使用 AJAX 技术，利用和风天气的 API 获取天气数据</p>
-                                <p>使用原生 JavaScript 对数据加工</p>
-                                <p>使用 echarts 库进行数据可视化渲染</p>
-                            </div>
-                        </div>
-                        <img src="img/weather_forecast.jpg" alt="">
-                    </div>
-                    <h4>待办事项</h4>
-                    <div class="todo">
-                        <div class="introduction">
-                            <div class="introduction-text">
-                                <p>一个待办事项单页</p>
-                                <p>使用 Vue.js 与 Bootstrap 实现</p>
-                                <p>可以从本地 localStorage 获取数据, 并将数据动态显示在页面</p>
-                                <p>实现了添加与删除事件、标记完成事件、修改事件</p>
-                                <p>使用 hash 值动态显示全部事件、已完成事件、未完成事件</p>
-                            </div>
-                        </div>
-                        <img src="img/todo.jpg" alt="">
-                    </div>
-                </article>
+
+<head>
+    <meta charset="utf-8">
+    <title>我的个人简历</title>
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="css/resume.css">
+    <base target="_blank">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <p id="myweb">GitHub：<a href="https://github.com/hanshuai1994">hanshuai1994</a>&nbsp;&nbsp;&nbsp;个人主页：<a
+                    href="http://hanshuai1994.github.io">hanshuai.me</a></p>
+            <h3>个人信息</h3>
+            <article class="info_article">
+                <div class="line-1">
+                    <p>姓名：韩帅</p>
+                    <p>手机：15605217252</p>
+                </div>
+                <div class="line-2">
+                    <p>性别：男</p>
+                    <p>邮箱：hanshuai1994@foxmail.com</p>
+                </div>
+            </article>
+        </div>
+        <div class="career">
+            <h3>教育/工作经历</h3>
+            <div class="table">
+                <div class="th">
+                    <div class="td">时间</div>
+                    <div class="td">学校/公司</div>
+                    <div class="td">学历/职位</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2013.9 - 2017.6</div>
+                    <div class="td">徐州工程学院</div>
+                    <div class="td">本科</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2017.7 - 2018.8</div>
+                    <div class="td">PChome(电脑之家)</div>
+                    <div class="td">前端工程师</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2018.9 - 至今</div>
+                    <div class="td">图启建科</div>
+                    <div class="td">WebGL工程师</div>
+                </div>
             </div>
         </div>
-    </body>
+        <div class="skill">
+            <h3>前端技能</h3>
+            <article class="skill_article">
+                <h4>HTML / CSS / LESS / ECMAScript(JavaScript)</h4>
+                <ul>
+                    <li>熟练掌握 HTML / CSS / LESS，，可实现 PC 端与移动端各种复杂的页面布局</li>
+                    <li>熟练掌握 HTML5 / CSS3 / ES6 的新特性，如Flex布局、箭头函数、Promise等</li>
+                </ul>
+                <h4>jQuery / Bootstrap / Swiper </h4>
+                <ul>
+                    <li>熟练掌握 jQuery / Bootstrap / Swiper 等第三方库，可在项目中快速实现</li>
+                </ul>
+                <h4>HTTP / AJAX / Node.js</h4>
+                <ul>
+                    <li>熟悉 HTTP 协议，理解数据传输过程，熟悉协议中请求与响应</li>
+                    <li>熟练掌握 AJAX 技术，通过调用封装好的 AJAX 实现便捷的前后端交互</li>
+                    <li>熟练掌握使用 Node.js 配合 Express 框架进行服务器端架设</li>
+                </ul>
+                <h4>ECharts / Three.js / WebGL</h4>
+                <ul>
+                    <li>熟练掌握 ECharts / Three.js / WebGL 等数据可视化库和技术</li>
+                </ul>
+                <h4>React / Redux / React-Redux / React-Router / Ant-Design</h4>
+                <ul>
+                    <li>熟悉 React / Redux 基本原理</li>
+                    <li>熟练掌握使用 React 全家桶构建灵活的模块化、组件化前端应用</li>
+                </ul>
+                <h4>Git / Webpack</h4>
+                <ul>
+                    <li>熟练掌握使用 Git 进行分布式版本控制</li>
+                    <li>熟练掌握使用 Webpack 进行模块化程序开发打包</li>
+                </ul>
+                <h4>Photoshop / Axure</h4>
+                <ul>
+                    <li>熟悉 Photoshop / Axure 等工具软件</li>
+                </ul>
+            </article>
+        </div>
+        <div class="program">
+            <h3>项目经历</h3>
+            <article class="program_article">
+                <h4>美窝家装设计系统</h4>
+                <div class="keywords">
+                    <span>WebGL</span>
+                    <span>Three.js</span>
+                    <span>AJAX</span>
+                    <div class="line-back"></div>
+                </div>
+                <div class="meiwo">
+                    <div class="introduction">
+                        <h5 class="title">项目介绍</h5>
+                        <ul class="content">
+                            <li>一个使用 WebGL 技术在网页中进行3D家装设计的项目</li>
+                            <li>文件模块：导入导出 AutoDesk 图纸，新建、打开、编辑、保存项目，图层展示，导出CAD图纸、拆单表、预算书等功能</li>
+                            <li>显示模块：可二、三维自由切换浏览</li>
+                            <li>建筑模块：楼层编辑、房间绘制、门窗、梁柱、楼梯、屋顶功能</li>
+                            <li>水、电、暖通模块：用水、用电设施的布置与各管线的关联布置功能</li>
+                            <li>家具橱柜模块：软装家具、厨房橱柜、全屋定制功能</li>
+                            <li>硬装模块：墙、地、顶面绘制区域与贴砖材质等功能</li>
+                            <li>图纸模块：根据场景内信息生成不同种类平面图与立面图</li>
+                            <li>通用构件：定位、旋转、缩放通用构件</li>
+                        </ul>
+                    </div>
+                    <div class="participate">
+                        <h5 class="title">我的参与</h5>
+                        <ul class="content">
+                            <li>整体前端页面搭设</li>
+                            <li>楼层功能、门、窗、飘窗、梁、柱与阳台功能开发</li>
+                            <li>软装家具、厨房橱柜、全屋定制、暖通功能开发</li>
+                            <li>通用定位、缩放、旋转控件封装</li>
+                            <li>CAD平面图纸生成</li>
+                        </ul>
+                        <img src="./img/meiwo.png" alt="">
+                    </div>
+                </div>
+                <h4 id="page_3">深圳住建局楼宇运维可视化系统</h4>
+                <div class="keywords">
+                    <span>WebGL</span>
+                    <span>Three.js</span>
+                    <span>AJAX</span>
+                    <span>Echarts</span>
+                    <div class="line-back"></div>
+                </div>
+                <div class="buildManagement">
+                    <div class="introduction">
+                        <h5 class="title">项目介绍</h5>
+                        <ul class="content">
+                            <li>一个使用 WebGL 技术完成的3D楼宇运维可视化系统的网页项目</li>
+                            <li>建筑模型在网页上以三维场景进行浏览，可切换楼栋、楼层显示与漫游，可导航至单个房间，可半透明建筑实现各管线系统的强调显示</li>
+                            <li>通过外部接口获取各种传感器信息，在页面中进行数据可视化</li>
+                            <li>通过外部接口获取各机电设备的状态与控制机电设备</li>
+                            <li>可查看与编辑保存在数据库中的运维信息</li>
+                        </ul>
+                        <img src="./img/buildManagement.png" alt="">
+                    </div>
+                    <div class="participate">
+                        <h5 class="title">我的参与</h5>
+                        <ul class="content">
+                            <li>独立完成所有前端功能的开发</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
 </html>
